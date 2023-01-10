@@ -49,7 +49,7 @@ with sync_playwright() as pw:
         print(result)
         print()
         
-        # Got to next question
+        # Go to next question
         page.locator("text=Next").click()
         page.wait_for_load_state("networkidle")
         time.sleep(1)
