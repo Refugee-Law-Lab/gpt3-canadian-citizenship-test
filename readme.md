@@ -21,8 +21,11 @@ The notebook, Can_gpt_pass_citizenship_test.ipynb, examines whether, as of Janua
 You can scrape the questions and answers from the Toronto Public Library's practice questions by running the ScrapeCitizenshipTest.py file from the terminal (scraping uses playright which does not work well in Jupyter Notebook):
 
 pip install pandas
+
 pip install playwright
+
 playwright install
+
 python -m ScrapeCitizenshipTest
 
 Alternatively, you can just run the notebook using the excel file with the scraped data in this repo.
@@ -30,6 +33,7 @@ Alternatively, you can just run the notebook using the excel file with the scrap
 Requirements for the notebook:
 
 pip install pandas
+
 pip install openai
 
 To run the notebook, you will also need an API key from OpenAI. Details about obtaining an account are[here] (https://beta.openai.com/signup), and details about getting an API key are[here] (https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key). Once you have an API key, place it in a text file called SECRETS-OPENAI.txt in the project secrets folder.
