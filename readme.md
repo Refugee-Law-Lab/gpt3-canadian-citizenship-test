@@ -1,10 +1,15 @@
 # Can GPT-3 pass the Canadian Citizenship Test?
 
 Sean Rehaag
+
 Director, Centre for Refugee Studies
+
 Director, Refugee Law Lab
+
 Associate Professor, Osgoode Hall Law School
+
 York University
+
 9 January 2022
 
 One of the requirements to obtain Canadian citizenship is to pass a multiple-choice test that that involves question about Canadian history, geography, economy, government, laws, and important symbols.
@@ -27,5 +32,5 @@ Requirements for the notebook:
 pip install pandas
 pip install openai
 
-To run the notebook, you will also need an API key from OpenAI. Details about obtaining an account are [here] (https://beta.openai.com/signup), and details about getting an API key are [here] (https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key). Once you have an API key, place it in a text file called SECRETS-OPENAI.txt in the project secrets folder.
+To run the notebook, you will also need an API key from OpenAI. Details about obtaining an account are[here] (https://beta.openai.com/signup), and details about getting an API key are[here] (https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key). Once you have an API key, place it in a text file called SECRETS-OPENAI.txt in the project secrets folder.
 
